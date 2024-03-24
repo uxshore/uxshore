@@ -315,6 +315,8 @@
 
     .examplesBtn {
         padding: 2vh;
+        margin-right: 2vh;
+        margin-left: 2vh;
         border-radius: 25px;
         background-color: #F2D98D;
         text-decoration: none;
