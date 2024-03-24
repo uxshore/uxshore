@@ -35,6 +35,7 @@ function ham() {
 
     contact.setAttribute("href", "/html/contact.html");
     home.setAttribute("href", "https://uxshore.com/");
+    quote.setAttribute("href", "/html/quotes.html");
 
     home.className = "mobilelinksa";
     quote.className = "mobilelinksa";
