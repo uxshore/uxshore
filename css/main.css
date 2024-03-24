@@ -27,6 +27,7 @@
     * {
         margin: 0px;
         padding: 0px;
+        overflow-x: hidden;
     }
 
     .navmobile {
@@ -98,6 +99,7 @@
 * {
         margin: 0px;
         padding: 0px;
+        overflow-x: hidden;
     }
 
     .navdesktop {
