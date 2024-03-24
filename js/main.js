@@ -8,3 +8,54 @@ let mobileLogo = document.getElementById("mobilelogo");
 
 desktopLogo.setAttribute("src", "/images/icons/" + logoRanNum + ".png");
 mobileLogo.setAttribute("src", "/images/icons/" + logoRanNum + ".png");
+
+let hamLogo = document.getElementById("ham");
+let hamBtn = document.getElementById("hamBtn");
+let mobileLinksDiv = document.getElementById("mobilelinksdiv");
+
+let home;
+let quote;
+let contact;
+
+
+function ham() {
+
+    hamLogo.setAttribute("src", "/images/icons/x.png");
+    hamBtn.setAttribute("onclick", "exit()");
+
+    mobileLinksDiv.className = "mobilelinksul1";
+
+    home = document.createElement("a");
+    quote = document.createElement("a");
+    contact = document.createElement("a");
+
+    home.textContent = "Home";
+    quote.textContent = "Get A Quote";
+    contact.textContent = "Contact Us";
+
+    contact.setAttribute("href", "/html/contact.html");
+    home.setAttribute("href", "https://uxshore.com/");
+
+    home.className = "mobilelinksa";
+    quote.className = "mobilelinksa";
+    contact.className = "mobilelinksa";
+
+
+    mobileLinksDiv.appendChild(home);
+    mobileLinksDiv.appendChild(quote);
+    mobileLinksDiv.appendChild(contact);
+
+
+}
+
+function exit() {
+
+    hamLogo.setAttribute("src", "/images/icons/ham.png");
+    hamBtn.setAttribute("onclick", "ham()");
+
+    mobileLinksDiv.className = "mobilelinksul";
+
+    mobileLinksDiv.removeChild(home);
+    mobileLinksDiv.removeChild(quote);
+    mobileLinksDiv.removeChild(contact);
+}
