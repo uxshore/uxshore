@@ -178,6 +178,11 @@
         z-index: 1;
     }
 
+    header {
+        height: 11vh;
+        overflow-y: hidden;
+    }
+
     .mainnavmobile {
         width: 100%;
         height: 11vh;
