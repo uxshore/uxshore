@@ -297,6 +297,7 @@
         padding: 5vh 0vh 5vh 0vh;
         flex-direction: column;
         text-align: center;
+        margin-top: 4;
     }
 
     .second {
