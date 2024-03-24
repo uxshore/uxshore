@@ -179,7 +179,7 @@
     }
 
     header {
-        height: 1vh;
+        height: 0vh;
         overflow-y: hidden;
     }
 
