@@ -135,6 +135,10 @@
         flex-direction: row;
     }
 
+    #ham {
+        width: 50px;
+    }
+
     .mobilenava {
         text-decoration: none;
         padding: 4vh 4vh 3.31vh 4vh;
