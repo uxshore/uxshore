@@ -308,6 +308,7 @@
         padding: 5vh 0vh 5vh 0vh;
         flex-direction: column;
         text-align: center;
+        margon-top: 4vh;
     }
 
     .examplesBtn {
