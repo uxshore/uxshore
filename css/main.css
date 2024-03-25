@@ -345,6 +345,10 @@
         
     }
 
+    .inputtext {
+        height: 20vh;
+    }
+
     .submitbtn {
         background-color: #F2884B
     }
