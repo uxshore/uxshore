@@ -372,12 +372,15 @@
     .input {
         font-family: josefin, helvetica;
         height: 4vh;
+        width: 10vh;
+        padding-left: 1vh;
         border-radius: 25px;
         border: none;
     }
 
     .inputtext {
         height: 20vh;
+        border-radius: 15px;
         font-family: josefin, helvetica;
     }
 
