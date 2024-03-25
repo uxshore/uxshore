@@ -324,5 +324,18 @@
         text-decoration: none;
         color: black;
     }
+
+    .form {
+        height: 70vh;
+    }
+    
+    .formp {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .input {
+        
+    }
     
 }
