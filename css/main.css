@@ -321,6 +321,7 @@
         margin-bottom: 4vh;
         color: white;
         font-family: josefin, helvetica;
+        line-height: 3px;
     }
 
     .second {
@@ -336,6 +337,7 @@
         margin-bottom: 4vh;
         color: white;
         font-family: josefin, helvetica;
+        line-height: 3px;
     }
 
     .examplesBtn {
@@ -364,6 +366,10 @@
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    label {
+        font-family: josefin, helvetica;
     }
 
     .input {
