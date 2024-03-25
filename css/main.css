@@ -387,8 +387,14 @@
     }
 
     .submitbtn {
-        background-color: #F2884B
+        background-color: #F2884B;
+        background: #F2884B;
         font-family: josefin, helvetica;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
     }
 
     .mainp {
