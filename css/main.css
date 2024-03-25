@@ -384,6 +384,7 @@
         padding-left: 1.5vh;
         padding-top: 1.5vh;
         font-family: josefin, helvetica;
+        border: none;
     }
 
     .submitbtn {
@@ -395,6 +396,8 @@
         border-radius: 15px;
         padding-top: 1vh;
         padding-bottom: 1vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
     }
 
     .mainp {
