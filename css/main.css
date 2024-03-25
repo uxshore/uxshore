@@ -272,7 +272,7 @@
         justify-content: center;
         flex-direction: column;
         position: fixed;
-        margin-top: 10vh;
+        margin-top: 11vh;
         animation: mobilenav 0.5s forwards;
     }
 
