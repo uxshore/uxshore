@@ -362,6 +362,8 @@
         width: 100%;
         height: 5vh;
         background-color: #037F8C;
+        color: white;
+        text-align: center;
     }
     
 }
