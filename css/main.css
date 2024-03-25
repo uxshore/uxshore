@@ -261,7 +261,7 @@
         justify-content: center;
         vertical-align: baseline;
         font-family: chicle, helvetica;
-        line-spacing: 4px;
+        letter-spacing: 4px;
     }
 
     .mobilelinksul {
@@ -300,12 +300,12 @@
 
     h1 {
         font-family: chicle, Ariel;
-        line-spacing: 4px;
+        letter-spacing: 4px;
     }
 
     h2 {
         font-family: chicle, Ariel;
-        line-spacing: 4px;
+        letter-spacing: 4px;
     }
 
     .first {
