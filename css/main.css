@@ -41,7 +41,15 @@
 
 
 /* Fonts */
+@font-face {
+    font-family: "josefin";
+    src: url("/media/fonts/josefin.ttf");
+}
 
+@font-face {
+    font-family: "chicle";
+    src: url("/media/fonts/chicle.ttf");
+}
 
 
 
@@ -288,6 +296,14 @@
         align-content: center;
     }
 
+    h1 {
+        font-family: chicle, Ariel;
+    }
+
+    h2 {
+        font-family: chicle, Ariel;
+    }
+
     .first {
         width: 45vh;
         background-color: rgba(255, 255, 255, 0.25);
@@ -300,6 +316,7 @@
         margin-top: 4vh;
         margin-bottom: 4vh;
         color: white;
+        font-family: josefin, helvetica;
     }
 
     .second {
