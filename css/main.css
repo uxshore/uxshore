@@ -358,8 +358,7 @@
     }
     
     .formp {
-        margin-top: 2vh;
-        margin-bottom: 2vh;
+        margin: 2vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -372,6 +371,9 @@
 
     .input {
         font-family: josefin, helvetica;
+        height: 4vh;
+        border-radius: 25px;
+        border: none;
     }
 
     .inputtext {
