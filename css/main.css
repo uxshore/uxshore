@@ -260,6 +260,8 @@
         display: flex;
         justify-content: center;
         vertical-align: baseline;
+        font-family: chicle, helvetica;
+        line-spacing: 4px;
     }
 
     .mobilelinksul {
@@ -298,10 +300,12 @@
 
     h1 {
         font-family: chicle, Ariel;
+        line-spacing: 4px;
     }
 
     h2 {
         font-family: chicle, Ariel;
+        line-spacing: 4px;
     }
 
     .first {
@@ -331,6 +335,7 @@
         margin-top: 4vh;
         margin-bottom: 4vh;
         color: white;
+        font-family: josefin, helvetica;
     }
 
     .examplesBtn {
@@ -341,6 +346,7 @@
         background-color: #F2D98D;
         text-decoration: none;
         color: black;
+        font-family: josefin, helvetica;
     }
 
     .form {
@@ -348,6 +354,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        font-family: josefin, helvetica;
     }
     
     .formp {
@@ -360,15 +367,17 @@
     }
 
     .input {
-        
+        font-family: josefin, helvetica;
     }
 
     .inputtext {
         height: 20vh;
+        font-family: josefin, helvetica;
     }
 
     .submitbtn {
         background-color: #F2884B
+        font-family: josefin, helvetica;
     }
 
     .mainp {
