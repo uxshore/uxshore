@@ -404,6 +404,26 @@
         margin-right: 1vh;
     }
 
+    .examplea {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 25px;
+        margin: 1vh 2vh 1vh 2vh;
+        background-color: rgba(255,255,255,0.2);
+        box-shadow: 2px 2px 1px white;
+    }
+
+    .examplea:active {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 25px;
+        margin: 1vh 2vh 1vh 2vh;
+        background-color: rgba(255,255,255,0.2);
+        box-shadow: 0px 0px 1px white;
+    }
+
     footer {
         width: 100%;
         height: 5vh;
