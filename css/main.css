@@ -407,6 +407,8 @@
     .examplea {
         display: flex;
         justify-content: center;
+        align-items: center;
+        text-align: center;
         text-decoration: none;
         flex-direction: column;
         border-radius: 25px;
@@ -427,6 +429,7 @@
 
     .exampleimg {
         width: 20vh;
+        border-radius: 15px;
     }
 
     .examplep {
