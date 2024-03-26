@@ -415,6 +415,8 @@
         margin: 1vh 2vh 1vh 2vh;
         background-color: rgba(255,255,255,0.2);
         box-shadow: 3px 3px 0px white;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
     }
 
     .examplea:active {
