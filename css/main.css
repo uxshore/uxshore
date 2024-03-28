@@ -447,6 +447,7 @@
     .socialimg {
         width: 40px;
         padding: 1vh;
+        border-radius: 25px;
     }
 
     .terms {
