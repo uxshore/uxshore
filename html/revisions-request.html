@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>UXShore</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <header>
+            <nav class="navdesktop">
+                <div class="desktoplogodiv">
+                    <img id="desktoplogo" src="/images/icons/4.png" class="desktoplogo" />
+                </div>
+
+                <div class="desktopnavlinks">
+                    <ul class="desktopnavul">
+                        <a href="https://uxshore.com/" class="desktopnava1">Home</a>
+                        <a href="/html/quotes.html" class="desktopnava">Get A Quote</a>
+                        <a href="/html/contact.html" class="desktopnava">Contact Us</a>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <nav class="navmobile">
+
+                <div class="mainnavmobile">
+                <div class="mobilelogodiv">
+                    <img id="mobilelogo" class="mobilelogo" src="" />
+                </div>
+
+                <div class="mobilenavlinks">
+                    <button id="hamBtn" onclick="ham()"><img id="ham" src="/images/icons/ham.png" /></button>
+
+                    
+                </div>
+
+                
+
+                </div>
+
+                
+                
+            </nav>
+
+            <div id="mobilelinksdiv" class="mobilelinksdiv">
+                  
+            </div>
+            
+            
+        </header>
+
+        <main>
+
+            <div class="first">
+
+            <h2>Website Revisions Request Form</h2>
+
+            <br />
+
+            <form name="revisions-request" netlify>
+                <p class="formp">
+                  <label>Full Name:</label>
+                  <input class="input" type="text" name="name" placeholder="Full Name" required />
+                </p>
+
+                <p class="formp">
+                  <label>Email:</label>
+                  <input class="input" type="email" name="email" placeholder="Email" required />
+                </p>
+
+                <p class="formp">
+                  <label>Phone Number:</label>
+                  <input class="input" type="tel" name="phone" placeholder="Phone Number" required />
+                </p>
+
+                <p class="formp">
+                  <label>Preferred Contact Method:</label>
+                  <select class="input" name="contact-method" required>
+                    <option>Email</option>
+                    <option>Phone</option>
+                  </select>
+                </p>
+
+                <p class="formp">
+                  <label>Client Website domain built by UXShore:</label>
+                  <input class="input" type="text" name="website" placeholder="uxshore.com" required />
+                </p>
+
+                <p class="formp">
+                    <label>Revision Request:</label>
+                    <textarea class="inputtext" name="comments" placeholder="Revisions" required></textarea>
+                </p>
+
+                <p class="formp">
+                  <button class="submitbtn" type="submit">Send</button>
+                </p>
+              </form>
+
+            </div>
+
+            <br />
+            <br />
+
+        </main>
+
+        <footer>
+          <p>UXShore ©️ 2024</p>
+          <a href="/html/terms.html">Terms and Conditions</a>
+        </footer>
+        
+        <script src="/js/main.js"></script>
+    </body>
+</html>
