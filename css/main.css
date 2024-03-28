@@ -441,6 +441,8 @@
 
     .terms {
         font-family: helvetica, ariel;
+        padding-right: 1vh;
+        padding-left: 1vh;
     }
 
     footer {
