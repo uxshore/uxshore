@@ -32,13 +32,13 @@ function ham() {
     login = document.createElement("a");
 
     home.textContent = "Home";
-    quote.textContent = "Get A Quote";
+    quote.textContent = "How It Works";
     contact.textContent = "Contact Us";
     login.textContent = "Signup/Login";
 
     contact.setAttribute("href", "/html/contact.html");
     home.setAttribute("href", "https://uxshore.com/");
-    quote.setAttribute("href", "/html/quotes.html");
+    quote.setAttribute("href", "/html/how-it-works.html");
     login.setAttribute("href", "/html/login.html");
 
     home.className = "mobilelinksa";
