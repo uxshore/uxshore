@@ -439,6 +439,16 @@
         color: white;
     }
 
+    .socialdiv {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .socialimg {
+        width: 40px;
+        padding: 1vh;
+    }
+
     .terms {
         font-family: helvetica, ariel;
         padding-right: 1vh;
