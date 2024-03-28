@@ -442,6 +442,7 @@
     .socialdiv {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     .socialimg {
