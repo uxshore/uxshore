@@ -13,7 +13,7 @@
         <header>
             <nav class="navdesktop">
                 <div class="desktoplogodiv">
-                    <img id="desktoplogo" src="/images/icons/4.png" class="desktoplogo" />
+                    <a href="https://uxshore.com/"><img id="desktoplogo" src="/images/icons/4.png" class="desktoplogo" /></a>
                 </div>
 
                 <div class="desktopnavlinks">
@@ -30,7 +30,7 @@
 
                 <div class="mainnavmobile">
                 <div class="mobilelogodiv">
-                    <img id="mobilelogo" class="mobilelogo" src="" />
+                    <a id="mobilelogolink"><img id="mobilelogo" class="mobilelogo" src="" /></a>
                 </div>
 
                 <div class="mobilenavlinks">
@@ -62,69 +62,40 @@
 
             <br />
 
-            <p class="mainp">Hello, We are a team of 2 web developers and 2 graphic designers. </p>
+            <ul>
+                <li class="mainp">Question: Will I be charged monthly to use UXShore's services?</li>
+                <button class="faqbtn" id="faqbtn1" onclick="Faq1()">View Answer</button>
+                <li id="faq1" class="faqhidden">Answer: As a client of UXShore, you will be charged a one time fee during the <a href="/html/how-it-works.html">5th stage of our process</a>. After stage 5 is complete, you will have two options for hosting your new website. Option 1: You can pay a fee of $18.99 per year to register a domain (ex. uxshore.com). Option 2: You can use our hosting provider's free domain (ex. uxshore.netlify.app). The setup process of your domain is handled by UXShore to make it as easy as possible for our clients. <a href="/html/contact.html">Contact us</a> if you have furthur questions.</li>
 
-            <br />
-
-            <p class="mainp">We build websites for as low as $50.</p>
-
-            </div>
-
-            <div class="second">
-
-                <h2>Our Past Work</h2>
+                <br />
                 <br />
 
-                <a href="/html/examples.html" class="examplesBtn">Example Websites</a>
+                <li class="mainp">Question: How long will it take to build my website?</li>
+                <button class="faqbtn" id="faqbtn2" onclick="Faq2()">View Answer</button>
+                <li id="faq2" class="faqhidden">Answer: It will take 14 business days from starting development to publishing the website. We will start building your website as soon as we have enough information to start. We will also send you an email when development has been started, as well as when development is finished.</li>
                 
-            </div>
-
-            <div class="first">
-
-                <p class="mainp">We build all our websites using HTML, CSS and JavaScript. We are currently working to integrate frameworks like <a href="">Bootstrap</a>, <a href="">React JS</a> and <a href="">Angular JS</a> in all of our client websites.</p>
-                
-            </div>
-
-            <div class="second">
-
-                <h2>Build Your Company Website</h2>
                 <br />
-                <p class="mainp">Start by clicking the button below to get a free quote from one of our web developers. We will get some information about your website from you and then get started on development immediately.</p>
                 <br />
 
-                <a href="/html/quotes.html" class="examplesBtn">Get Free Quote</a>
+                <li class="mainp">Question: Can I customize everything on my website?</li>
+                <button class="faqbtn" id="faqbtn3" onclick="Faq3()">View Answer</button>
+                <li id="faq3" class="faqhidden">Answer: Yes. We will try everything we can do to fulfill client requests. You can describe how you want your website to look when filling out the <a href="/html/quotes.html">quote form</a>. If we cannot meet your request, we will send you an email explaining why, as well as some alternatives we can try.</li>
                 
+            </ul>
+
             </div>
 
-            <div class="first">
-
-                <h2>About Us</h2>
-                <br />
-                <p class="mainp">UXShore is a family owned web development studio that was founded in March, 2024. The founders of <a target="_blank" href="https://tikkities.etsy.com">Tikki Ties</a>, <a target="_blank" href="https://halationstudio.com/">Halation Studio</a> and <a target="_blank" href="https://pectolprints.etsy.com">Pectol Prints</a> have come together to create a company that is centered around building creative and unique websites. We are excited to start helping small businesses get their names out into the world!</p>
-                
-            </div>
-
-            <div class="second">
-
-                <h2>Social Media</h2>
-                <br />
-                <div class="socialdiv">
-                   <!-- <a href=""><img src="/images/icons/fiverr.png" class="socialimg" /></a>-->
-                    <!--<a href=""><img src="/images/icons/tt.png" class="socialimg" /></a>-->
-                    <a target="_blank" href="https://www.instagram.com/uxshore?igsh=MTFsazdoMWVlMXpoOQ=="><img src="/images/icons/insta.jpeg" class="socialimg" /></a>
-                    <a target="_blank" href="https://www.facebook.com/UXShores?mibextid=ZbWKwL"><img src="/images/icons/fb.png" class="socialimg" /></a>
-                   <!-- <a href=""><img src="/images/icons/x.jpeg" class="socialimg" /></a>-->
-                </div>
-                
-            </div>
+            
 
         </main>
 
         <footer>
             <p>UXShore ©️ 2024</p>
             <a href="/html/terms.html">Terms and Conditions</a>
+            <a href="/html/faqs.html">FAQs</a>
         </footer>
         
+        <script src="/js/faqs.js"></script>
         <script src="/js/main.js"></script>
     </body>
 </html>

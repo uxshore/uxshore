@@ -4,14 +4,17 @@ logoRanNum = Math.floor(Math.random() * (5 - 1) + 1);
 
 let desktopLogo = document.getElementById("desktoplogo");
 let mobileLogo = document.getElementById("mobilelogo");
+let mobileLogoLink = document.getElementById("mobilelogolink");
 
 
 desktopLogo.setAttribute("src", "/images/icons/" + "3.png");
 mobileLogo.setAttribute("src", "/images/icons/" + "3.png");
+mobileLogoLink.setAttribute("href", "https://uxshore.com/");
 
 let hamLogo = document.getElementById("ham");
 let hamBtn = document.getElementById("hamBtn");
 let mobileLinksDiv = document.getElementById("mobilelinksdiv");
+
 
 let home;
 let quote;
@@ -50,7 +53,7 @@ function ham() {
     mobileLinksDiv.appendChild(home);
     mobileLinksDiv.appendChild(quote);
     mobileLinksDiv.appendChild(contact);
-    mobileLinksDiv.appendChild(login);
+    // mobileLinksDiv.appendChild(login);
 
 
 }
@@ -65,5 +68,5 @@ function exit() {
     mobileLinksDiv.removeChild(home);
     mobileLinksDiv.removeChild(quote);
     mobileLinksDiv.removeChild(contact);
-    mobileLinksDiv.removeChild(login);
+    // mobileLinksDiv.removeChild(login);
 }
