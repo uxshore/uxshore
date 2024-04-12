@@ -9,7 +9,7 @@ let mobileLogoLink = document.getElementById("mobilelogolink");
 
 desktopLogo.setAttribute("src", "/images/icons/" + "3.png");
 mobileLogo.setAttribute("src", "/images/icons/" + "3.png");
-mobileLogoLink.setAttribute("href", "https://uxshore.com/");
+mobileLogoLink.setAttribute("href", "https://blog.uxshore.com/");
 
 let hamLogo = document.getElementById("ham");
 let hamBtn = document.getElementById("hamBtn");
