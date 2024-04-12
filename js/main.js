@@ -51,8 +51,8 @@ function ham() {
 
 
     mobileLinksDiv.appendChild(home);
-    mobileLinksDiv.appendChild(quote);
-    mobileLinksDiv.appendChild(contact);
+    //mobileLinksDiv.appendChild(quote);
+    //mobileLinksDiv.appendChild(contact);
     // mobileLinksDiv.appendChild(login);
 
 
@@ -66,7 +66,7 @@ function exit() {
     mobileLinksDiv.className = "mobilelinksul";
 
     mobileLinksDiv.removeChild(home);
-    mobileLinksDiv.removeChild(quote);
-    mobileLinksDiv.removeChild(contact);
+    //mobileLinksDiv.removeChild(quote);
+   // mobileLinksDiv.removeChild(contact);
     // mobileLinksDiv.removeChild(login);
 }
