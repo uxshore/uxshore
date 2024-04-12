@@ -415,8 +415,9 @@
 
     .faqvisible {
         background-color: rgb(242, 217, 141);
-        padding: 1vh;
+        padding: 2vh;
         border-radius: 25px;
+        color: black;
     }
 
     .faqbtn {
@@ -426,7 +427,7 @@
         font-size: 1.2rem;
         border-radius: 25px;
         border: none;
-        padding: 0vh 2vh 0vh 2vh;
+        padding: 1vh 4vh 1vh 4vh;
     }
 
     footer a {
