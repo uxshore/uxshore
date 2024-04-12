@@ -35,13 +35,13 @@ function ham() {
     login = document.createElement("a");
 
     home.textContent = "Home";
-    quote.textContent = "How It Works";
+    quote.textContent = "UXShore.com";
     contact.textContent = "Contact Us";
     login.textContent = "Signup/Login";
 
     contact.setAttribute("href", "/html/contact.html");
-    home.setAttribute("href", "https://uxshore.com/");
-    quote.setAttribute("href", "/html/how-it-works.html");
+    home.setAttribute("href", "https://blog.uxshore.com/");
+    quote.setAttribute("href", "https://uxshore.com/");
     login.setAttribute("href", "/html/login.html");
 
     home.className = "mobilelinksa";
@@ -51,7 +51,7 @@ function ham() {
 
 
     mobileLinksDiv.appendChild(home);
-    //mobileLinksDiv.appendChild(quote);
+    mobileLinksDiv.appendChild(quote);
     //mobileLinksDiv.appendChild(contact);
     // mobileLinksDiv.appendChild(login);
 
@@ -66,7 +66,7 @@ function exit() {
     mobileLinksDiv.className = "mobilelinksul";
 
     mobileLinksDiv.removeChild(home);
-    //mobileLinksDiv.removeChild(quote);
+    mobileLinksDiv.removeChild(quote);
    // mobileLinksDiv.removeChild(contact);
     // mobileLinksDiv.removeChild(login);
 }
